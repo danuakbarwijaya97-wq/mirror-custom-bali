@@ -12,7 +12,7 @@ $links = [
         'class' => 'shopee'
     ],
     [
-        'title' => '🛒 Mirror Custom di Shopee',
+        'title' => '🛒 Custom Cermin di Shopee',
         'url' => 'https://shopee.co.id/mirror_custom.bali',
         'class' => 'shopee'
     ]
@@ -21,8 +21,8 @@ $links = [
 // Data produk
 $products = [
     [
-        'name' => '🪞 Custom Mirror',
-        'description' => 'Kaca estetik dengan design custom sesuai keinginan Anda. Tersedia berbagai ukuran dan frame yang elegan.'
+        'name' => '🪞 Custom Cermin',
+        'description' => 'Cermin estetik dengan design custom sesuai keinginan Anda. Tersedia berbagai ukuran dan frame yang elegan.'
     ],
     [
         'name' => '📦 Rak Ambalan',
@@ -47,8 +47,8 @@ $contact_info = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mirror Custom Bali - Kaca Estetik & Rak Ambalan Berkualitas</title>
-    <meta name="description" content="Mirror Custom Bali menyediakan custom kaca estetik dan rak ambalan berkualitas tinggi. Pesan sekarang via WhatsApp atau Shopee.">
+    <title>Mirror Custom Bali - Cermin Estetik & Rak Ambalan Berkualitas</title>
+    <meta name="description" content="Mirror Custom Bali menyediakan custom cermin estetik dan rak ambalan berkualitas tinggi. Pesan sekarang via WhatsApp atau Shopee.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -59,7 +59,7 @@ $contact_info = [
                 <img src="logo.png" alt="Logo Mirror Custom Bali" class="header-logo">
                 <div class="brand-info">
                     <h1 class="brand-name">MIRROR CUSTOM BALI</h1>
-                    <p class="brand-tagline">Custom Kaca Estetik & Rak Ambalan</p>
+                    <p class="brand-tagline">Custom Cermin Estetik & Rak Ambalan</p>
                 </div>
             </div>
             <nav class="header-nav">
@@ -73,13 +73,11 @@ $contact_info = [
     <!-- ========== MAIN CONTENT ========== -->
     <main class="main-content">
         <!-- Hero Section with Background Image -->
-        <section class="hero-section" id="beranda">
-            <div class="hero-content">
-                <h2>Kaca Estetik & Rak Ambalan Terbaik di Bali</h2>
-                <p class="hero-description">
-                    Mirror Custom Bali menghadirkan solusi kaca estetik dan rak ambalan berkualitas premium untuk melengkapi dekorasi rumah dan ruang bisnis Anda.
-                </p>
-            </div>
+        <section class="card hero-section" id="beranda">
+            <h2>Cermin Estetik & Rak Ambalan Terbaik di Bali</h2>
+            <p class="hero-description">
+                Mirror Custom Bali menghadirkan solusi cermin estetik dan rak ambalan berkualitas premium untuk melengkapi dekorasi rumah dan ruang bisnis Anda. Dengan desain modern dan material terbaik, kami siap mewujudkan konsep interior impian Anda.
+            </p>
         </section>
 
         <!-- Products Section -->
@@ -123,7 +121,7 @@ $contact_info = [
                 <div class="footer-section">
                     <h4>Tentang Kami</h4>
                     <p>
-                        Mirror Custom Bali adalah penyedia solusi kaca estetik dan rak ambalan berkualitas tinggi. Kami berkomitmen memberikan produk terbaik dengan harga yang kompetitif.
+                        Mirror Custom Bali adalah penyedia solusi cermin estetik dan rak ambalan berkualitas tinggi. Kami berkomitmen memberikan produk terbaik dengan harga yang kompetitif.
                     </p>
                     <div class="social-links">
                         <a href="<?= htmlspecialchars($contact_info['whatsapp']) ?>" target="_blank" class="social-icon" title="WhatsApp">
@@ -139,7 +137,7 @@ $contact_info = [
                 <div class="footer-section">
                     <h4>Produk</h4>
                     <ul class="footer-links">
-                        <li><a href="#produk">Custom Mirror</a></li>
+                        <li><a href="#produk">Custom Cermin</a></li>
                         <li><a href="#produk">Rak Ambalan</a></li>
                         <li><a href="#produk">Custom Design</a></li>
                         <li><a href="<?= htmlspecialchars($contact_info['shopee_mirror']) ?>" target="_blank">Belanja Sekarang</a></li>
