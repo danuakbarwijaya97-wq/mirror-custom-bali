@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #178b97; /* Warna logo */
-    --secondary-color: #0d5a62;
+    --primary-color: #DC143C; /* Crimson Red */
+    --secondary-color: #8B0000; /* Dark Red */
     --bg-color: #f8fafc;
     --card-bg: #ffffff;
     --text-main: #334155;
@@ -206,7 +206,7 @@ body {
 
 .product-card:hover {
     border-color: var(--primary-color);
-    box-shadow: 0 8px 16px rgba(23, 139, 151, 0.1);
+    box-shadow: 0 8px 16px rgba(220, 20, 60, 0.15);
     transform: translateY(-3px);
 }
 
@@ -260,7 +260,7 @@ body {
 }
 
 .btn.shopee {
-    background: linear-gradient(135deg, var(--shopee-color) 0%, #d63c1e 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
 
 /* ========== FOOTER ========== */
